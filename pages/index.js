@@ -1,5 +1,7 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -9,11 +11,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Image
+        src="/images/Eyes.jpg" // Route of the image file
+        height={256} // Desired size with correct aspect ratio
+        width={384} // Desired size with correct aspect ratio
+        alt="Eyes"/>
+
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Learn <Link href="/learn/dermatochalasis">Next.js!</Link>
         </h1>
-
+      
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
         </p>
@@ -55,8 +63,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+          Made with love... & Vercel.
         </a>
       </footer>
 
