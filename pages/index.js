@@ -2,9 +2,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import Nav from '../components/navbar.js'
 
 export default function Home() {
-  return (
+  return (<>
+    <Nav></Nav>
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -19,7 +21,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Learn <Link href="/learn/dermatochalasis">Next.js!</Link>
+          Learn <Link href="/conditions/dermatochalasis">Next.js!</Link>
         </h1>
       
         <p className={styles.description}>
@@ -118,5 +120,6 @@ export default function Home() {
         }
       `}</style>
     </div>
+  </>
   )
 }
