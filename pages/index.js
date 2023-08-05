@@ -67,6 +67,7 @@ export default function Home() {
         >
           Made with love... & Vercel.
         </a>
+        {/*Add icons8.com*/}
       </footer>
 
       <style jsx>{`

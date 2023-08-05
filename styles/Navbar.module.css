@@ -1,3 +1,52 @@
-.NavBar {
-  
+.Navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(0, 134, 223);
+  height: clamp(20px, 8vh, 1000px);
+  width: 100vw;
+  top: 0;
+}
+
+.Logo{
+  margin-left: 20px;
+  background-color: transparent;
+  height: fit-content;
+  width: fit-content;
+}
+
+.Link{
+  display: inline-flex;
+  color: black;
+  padding-left: 4%;
+}
+
+.Ham{
+  display: inline-flex;
+  margin-left: auto;
+  padding: 0;
+  height: 8vh;
+  width: 8vh;
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+}
+
+.Hamsvg{
+  background-color: transparent;
+  height: fit-content;
+  width: fit-content;
+}
+
+@media only screen and (min-width: 1026px) {
+  .Ham {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1026px) {
+  .Link {
+      display: none;
+  }
 }
