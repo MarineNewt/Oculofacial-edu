@@ -6,7 +6,7 @@ export default function Learn() {
   return (
     <Layout name="Learn">
       <Head>
-        <title>Conditions Info</title>
+        <title>Conditions</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Treatments</h1>
