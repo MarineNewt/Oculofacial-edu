@@ -4,7 +4,7 @@ import Layout from '../../components/layout';
 
 export default function FirstPost() {
   return (
-    <Layout name="Ptosis">
+    <Layout name="Ptosis" current="Conditions">
       <Head>
         <title>Ptosis Info</title>
         <link rel="icon" href="/favicon.ico" />

@@ -1,6 +1,7 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
+  padding-top: clamp(20px, 8vh, 1000px);
   display: flex;
   flex-direction: column;
   justify-content: center;

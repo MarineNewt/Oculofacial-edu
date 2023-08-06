@@ -4,7 +4,7 @@ import Layout from '../../components/layout';
 
 export default function FirstPost() {
   return (
-    <Layout name="Dermato">
+    <Layout name="Dermato" current="Conditions">
       <Head>
         <title>Dermatochalasis Info</title>
         <link rel="icon" href="/favicon.ico" />

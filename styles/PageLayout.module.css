@@ -1,17 +1,11 @@
 .wrapper {
-    display: grid;
-    gap: 20px;
-    grid-template-areas:
-      "content"
-      "sidebar"
+    display: flex;
+    padding-top: clamp(20px, 8vh, 1000px);;
 }
 
 .content {
-    max-width: 36rem;
-    padding: 0 1rem;
-    margin: 3rem auto 6rem;
-    background-color: blue;
-    grid-area: content;
+    width: 80%;
+    margin-left: 20%;
 }
 
 .header {
@@ -25,6 +19,7 @@
 }
 
 .sidebar { 
-    grid-area: sidebar;
-    background-color: green;
+    position: fixed;
+    height: clamp(calc(100vh - 1000px), calc(100vh - 8vh), calc(100vh - 20px));
+    width: 20%;
 }

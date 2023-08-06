@@ -4,7 +4,7 @@ import Layout from '../../components/layout';
 
 export default function Learn() {
   return (
-    <Layout name="Learn">
+    <Layout name="Learn" current="Treatments">
       <Head>
         <title>Conditions</title>
         <link rel="icon" href="/favicon.ico" />
