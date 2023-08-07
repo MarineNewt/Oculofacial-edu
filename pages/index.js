@@ -9,7 +9,7 @@ export default function Home() {
     <Nav></Nav>
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Oculoplastics Learning Center</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
