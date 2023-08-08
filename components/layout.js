@@ -9,6 +9,7 @@ export default function ConditionLayout({ name, current, children }) {
       <div className={styles.wrapper}>
         <div className={styles.sidebar}><Sidebar current={current}></Sidebar></div>
         <div className={styles.content}>{children}</div>
+        <div className={styles.additionals}>extra content</div>
       </div>
     </>
   }
