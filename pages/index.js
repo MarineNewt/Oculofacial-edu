@@ -13,52 +13,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Image
+      <div className={styles.titleBox}><h1 className={styles.title}h1>Oculoplastics Learning Center.</h1></div>
+      <div className={styles.homeSectionsBox}>
+        <div className={styles.homeSectionsArea}> Conditions</div> 
+        <Image className={styles.homeSectionsImage}
         src="/images/Eyes.jpg" // Route of the image file
         height={256} // Desired size with correct aspect ratio
         width={384} // Desired size with correct aspect ratio
-        alt="Eyes"/>
-
-      <main>
-        <h1 className={styles.title}>
-          Learn <Link href="/conditions/dermatochalasis">Next.js!</Link>
-        </h1>
-      
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
+        alt="Eyes"
+        />
+        <div className={styles.homeSectionsArea}> Treatments</div> 
+      </div>
       <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

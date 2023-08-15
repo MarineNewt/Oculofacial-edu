@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 0;
   padding-top: clamp(20px, 8vh, 1000px);
   display: flex;
   flex-direction: column;
@@ -8,36 +8,58 @@
   align-items: center;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
+.titleBox {
+  height: 40vh;
+  width: 100%;
+  padding: 0;
+  background: linear-gradient(130deg, #06c5d6, #94cce3, #06c5d6);
+  background-size: 200% 200%;
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+  display: flex;
+}
+@-webkit-keyframes Animation {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
 }
 
 .title {
-  margin: 0 0 1rem;
-  line-height: 1.15;
-  font-size: 3.6rem;
-}
-
-.title {
+  font-size: clamp(40px, 5vw, 10000px);
   text-align: center;
+  margin: auto;
+  padding-bottom: 4vh;
+  padding-inline: 2vw;
 }
 
-.title,
-.description {
-  text-align: center;
+.homeSectionsBox{
+  height: 52vh;
+  width: 100%;
+  display: flex;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
+.homeSectionsImage{
+  height: 100%;
+  width: auto;
+}
 
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+.homeSectionsArea{
+  height: 100%;
+  flex: 1;
 }
 
 .grid {
