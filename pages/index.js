@@ -15,14 +15,36 @@ export default function Home() {
 
       <div className={styles.titleBox}><h1 className={styles.title}h1>Oculoplastics Learning Center.</h1></div>
       <div className={styles.homeSectionsBox}>
-        <div className={styles.homeSectionsArea}> Conditions</div> 
+        <div className={styles.homeSectionsArea}>
+        <Link className={styles.none} href="/conditions/learn">
+          <div className={styles.imageFade}></div>
+          <Image className={styles.sectionBoxImage}
+          src="/images/homeconditionsimage.jpg" // Route of the image file
+          height={360} // Desired size with correct aspect ratio
+          width={640} // Desired size with correct aspect ratio
+          alt="Conditions"
+          />
+          <div className={styles.sectionBoxText}>Identify conditions and explore details behind a diagnosis.</div>
+        </Link>
+        </div> 
         <Image className={styles.homeSectionsImage}
         src="/images/Eyes.jpg" // Route of the image file
         height={256} // Desired size with correct aspect ratio
         width={384} // Desired size with correct aspect ratio
         alt="Eyes"
         />
-        <div className={styles.homeSectionsArea}> Treatments</div> 
+        <div className={styles.homeSectionsArea}>
+        <Link className={styles.none} href="/treatments/learn">
+          <div className={styles.imageFade}></div>
+          <Image className={styles.sectionBoxImage}
+            src="/images/hometreatmentimage.jpg" // Route of the image file
+            height={360} // Desired size with correct aspect ratio
+            width={640} // Desired size with correct aspect ratio
+            alt="Treatments"
+          />
+          <div className={styles.sectionBoxText}>Reimagine a new look and explore your options with modern treatments.</div>
+        </Link>
+        </div> 
       </div>
       <footer>
         <a
@@ -46,14 +68,11 @@ export default function Home() {
         }
         footer {
           width: 100%;
-          height: 100px;
+          height: 50px;
           border-top: 1px solid #eaeaea;
           display: flex;
           justify-content: center;
           align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
         }
         footer a {
           display: flex;
@@ -62,14 +81,7 @@ export default function Home() {
           text-decoration: none;
           color: inherit;
         }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
+
       `}</style>
 
       <style jsx global>{`
