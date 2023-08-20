@@ -1,5 +1,14 @@
+.primaryContent{
+  border-bottom: 2px solid black;
+}
+
 .title { 
   line-height: 1.0;
+  margin-bottom: 1%;
+}
+
+.inPageNav{
+  margin-top: 0;
 }
 
 .secHeading { 
@@ -10,3 +19,6 @@
   margin-top: 0;
 }
 
+.adviceInfo{
+  font-style: italic;
+}
