@@ -22,3 +22,21 @@
 .adviceInfo{
   font-style: italic;
 }
+
+/* Treatment pages */
+.qinfoContainer{
+  width: 50%;
+  padding-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border: 2px solid black;
+}
+.treatmentqinfo{
+  margin: 0;
+}
+
+.inlineLink{
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+}
