@@ -40,3 +40,17 @@
   text-decoration: underline;
   font-style: italic;
 }
+
+/* Learn pages */
+.LearnInfoP{
+  margin-top: 4%;
+  text-indent: 2em;
+}
+
+.LearnInfoqtip{
+  font-style: italic;
+}
+
+.none {
+  all: unset;
+}

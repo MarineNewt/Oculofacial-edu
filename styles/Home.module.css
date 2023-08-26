@@ -102,13 +102,13 @@
   color: white;
 }
 
-.none {
-  all: unset;
-}
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+}
+
+.none {
+  all: unset;
 }
