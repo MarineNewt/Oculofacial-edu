@@ -3,8 +3,8 @@ import styles from '../styles/Sidebar.module.css';
 import Link from 'next/link';
 
 export default function Sidebar({ current, children }) {
-  let conditionlist = ["dermatochalasis", "ptosis"];
-  let treatmentlist = ["blepharoplasty", "ELR"];
+  let conditionlist = ["dermatochalasis", "ptosis", "brow ptosis", "chalazion", "facial lesion", "blepharospasm",];
+  let treatmentlist = ["blepharoplasty", "lower blepharoplsty", "ELR", "ILR", "brow lift", "incision and drainage", "botox"];
   let targetlist = []
   if(current === "Conditions"){targetlist = conditionlist;}else{targetlist = treatmentlist;}
     return <div className={styles.bar}>
