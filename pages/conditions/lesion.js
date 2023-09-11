@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/layout';
+import Printpage from '../../components/printpage';
 import styles from '../../styles/InfoPage.module.css';
 
 export default function FirstPost() {
@@ -11,7 +12,7 @@ export default function FirstPost() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.primaryContent}>
-        <h1 className={styles.title}>Lesion</h1>
+        <div className={styles.titleFlex}><h1 className={styles.title}>Lesion</h1><Printpage></Printpage></div>
         <h3  className={styles.inPageNav}><Link href='#Diagnosis'>Diagnosis</Link> • <Link href='#Symptoms'>Symptoms</Link> • <Link href='#Causes'>Causes</Link> • <Link href='#Treatments'>Treatments</Link> • <Link href='#Research'>Research</Link></h3>
         <h2 id="Diagnosis" className={styles.secHeading}>Diagnosis</h2>
         <p className={styles.infoParagraph}>• Dermatochalasis t.</p>

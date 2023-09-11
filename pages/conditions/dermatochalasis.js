@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/layout';
+import Printpage from '../../components/printpage';
 import styles from '../../styles/InfoPage.module.css';
 
 export default function FirstPost() {
@@ -10,8 +11,8 @@ export default function FirstPost() {
         <title>Dermatochalasis Info</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.primaryContent}>
-        <h1 className={styles.title}>Dermatochalasis</h1>
+      <div id="primaryContent" className={styles.primaryContent}>
+        <div className={styles.titleFlex}><h1 className={styles.title}>Dermatochalasis</h1> <Printpage></Printpage></div>
         <h3  className={styles.inPageNav}><Link href='#Diagnosis'>Diagnosis</Link> • <Link href='#Symptoms'>Symptoms</Link> • <Link href='#Causes'>Causes</Link> • <Link href='#Treatments'>Treatments</Link> • <Link href='#Research'>Research</Link></h3>
         <h2 id="Diagnosis" className={styles.secHeading}>Diagnosis</h2>
         <p className={styles.infoParagraph}>• Dermatochalasis is a common yet often overlooked condition that can impact both vision and appearance. Dermatochalasis refers to the gradual stretching and sagging of the skin of the upper eyelids, often a result of the natural aging process and prolonged sun exposure. This condition can lead to excessive skin accumulation, causing a tired and droopy appearance, obscuring the natural crease of the eyelid, and in some cases, even obstructing one's field of vision. Identifying dermatochalasis involves observing the presence of redundant skin on the upper eyelids, which may become more prominent when the eyes are open or while applying makeup. If you find yourself constantly raising your brows to alleviate a heavy sensation or if your peripheral vision seems compromised, dermatochalasis could be the culprit.</p>

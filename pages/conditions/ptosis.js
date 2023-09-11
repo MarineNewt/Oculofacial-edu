@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/layout';
+import Printpage from '../../components/printpage';
 import styles from '../../styles/InfoPage.module.css';
 
 export default function FirstPost() {
@@ -10,8 +11,8 @@ export default function FirstPost() {
         <title>Ptosis Info</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.primaryContent}>
-        <h1 className={styles.title}>Ptosis</h1>
+      <div id="primaryContent" className={styles.primaryContent}>
+        <div className={styles.titleFlex}><h1 className={styles.title}>Ptosis</h1><Printpage></Printpage></div>
         <h3 className={styles.inPageNav}><Link href='#Diagnosis'>Diagnosis</Link> • <Link href='#Symptoms'>Symptoms</Link> • <Link href='#Causes'>Causes</Link> • <Link href='#Treatments'>Treatments</Link> • <Link href='#Research'>Research</Link></h3>
         <h2 id="Diagnosis" className={styles.secHeading}>Diagnosis</h2>
         <p className={styles.infoParagraph}>• Ptosis, a condition often referred to as "droopy eyelid," is characterized by the abnormal drooping of the upper eyelids. This can occur in one or both eyes and is typically caused by a weakening or malfunction of the muscles responsible for lifting the eyelid. Individuals with ptosis may experience a tired or heavy sensation in the affected eye(s), and in severe cases the drooping lid will obstruct their field of vision. Identifying ptosis is relatively straightforward; common signs include an asymmetry in the height of the eyelids, an inability to see a portion of the upper iris while the eyes are open, or a loss of superior peripheral vision. Ptosis can develop due to age-related factors, congenital conditions, neurological issues, or trauma. While a gradual onset of ptosis is often age related and benign, an actue onset of ptosis that rapidly devlops over days or weeks should be evaluated by your opthamologist as the changes can be a sign of a more serious condition.</p>

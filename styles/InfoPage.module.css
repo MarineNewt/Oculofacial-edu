@@ -2,9 +2,13 @@
   border-bottom: 2px solid black;
 }
 
+.titleFlex{
+  display: flex;
+}
 .title { 
   line-height: 1.0;
   margin-bottom: 1%;
+  margin-right: auto;
 }
 
 .inPageNav{
