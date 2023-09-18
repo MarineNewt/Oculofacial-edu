@@ -23,7 +23,7 @@ export default function FirstPost() {
         <h2 id="Treatments" className={styles.secHeading}>Treatment options</h2>
         <p className={styles.infoParagraph}>• Advanced .</p>
         <h2 id="Research" className={styles.secHeading}>Latest Research</h2>
-        <p className={styles.infoParagraph}>• The latest research regarding dermatochalasis can be found at:<br></br><a className={styles.LearnInfoqtip} href="https://pubmed.ncbi.nlm.nih.gov/?term=dermatochalasis" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/?term=dermatochalasis</a></p>
+        <p className={styles.infoParagraph}>• The latest research regarding facial lesions can be found at:<br></br><a className={styles.LearnInfoqtip} href="https://pubmed.ncbi.nlm.nih.gov/?term=facial+lesions" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/?term=facial+lesions</a></p>
       </div>
       <p className={styles.adviceInfo}>The information on this site should not be used as a substitute for professional medical care or advice. Contact a health care provider if you have questions about your health.</p>
       <h2>
