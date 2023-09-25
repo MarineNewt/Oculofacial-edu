@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Sidebar({ current, children }) {
   let conditionlist = ["dermatochalasis", "ptosis", "browptosis", "chalazion", "lesion", "blepharospasm"];
-  let treatmentlist = ["blepharoplasty", "lower blepharoplsty", "ELR", "ILR", "brow lift", "incision and drainage"];
+  let treatmentlist = ["blepharoplasty", "lower blepharoplsty", "ELR", "ILR", "temporal brow lift", "incision and drainage"];
   let targetlist = []
   if(current === "Conditions"){targetlist = conditionlist;}else{targetlist = treatmentlist;}
     return <div className={styles.bar}>
