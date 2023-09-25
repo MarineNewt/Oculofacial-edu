@@ -102,6 +102,23 @@
   color: white;
 }
 
+.footer {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(130deg, #06c5d6, #94cce3, #06c5d6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  margin-inline: 2%;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

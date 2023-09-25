@@ -9,6 +9,13 @@ export default function Home() {
     <Nav></Nav>
     <div className={styles.container}>
       <Head>
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png"></link>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"></link>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></link>
+        <link rel="manifest" href="/site.webmanifest"></link>
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"></link>
+        <meta name="msapplication-TileColor" content="#da532c"></meta>
+        <meta name="theme-color" content="#ffffff"></meta>
         <title>Oculoplastics Learning Center</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -46,15 +53,28 @@ export default function Home() {
         </Link>
         </div> 
       </div>
-      <footer>
+      <footer className={styles.footer}>
+        <a
+          href="/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          © Oculoplastics Learning Center 2023
+        </a>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with love... & Vercel.
+          Made with Vercel.
         </a>
-        {/*Add icons8.com*/}
+        <a
+          href="https://icons8.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Icons supported by Icons8.
+        </a>
       </footer>
 
       <style jsx>{`
@@ -65,21 +85,6 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 50px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
         }
 
       `}</style>
