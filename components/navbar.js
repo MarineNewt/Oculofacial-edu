@@ -13,7 +13,7 @@ export default function Navbar({}) {
   };
 
     return <nav className={Navcss.Navbar}>
-      <Image src="/../public/images/icons8-eye.png" width={400} height={400} className={Navcss.Logo} alt="Eye logo"></Image>
+      <Image src="/images/icons8-eye.png" width={400} height={400} className={Navcss.Logo} alt="Eye logo"></Image>
       <Link className={Navcss.Link} href="/">Home</Link>
       <Link className={Navcss.Link} href="/conditions/learn">Conditions</Link>
       <Link className={Navcss.Link} href="/treatments/learn">Treatments</Link>
