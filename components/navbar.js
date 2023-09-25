@@ -3,6 +3,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import Image from 'next/image'
 import Navcss from "../styles/Navbar.module.css"
+import SearchBar from './searchbar.js';
 import { useState } from 'react';
 
 
@@ -17,6 +18,7 @@ export default function Navbar({}) {
       <Link className={Navcss.Link} href="/">Home</Link>
       <Link className={Navcss.Link} href="/conditions/learn">Conditions</Link>
       <Link className={Navcss.Link} href="/treatments/learn">Treatments</Link>
+      <SearchBar></SearchBar>
       <button className={Navcss.Ham}>
           <svg
             className={Navcss.Hamsvg}

@@ -22,6 +22,35 @@
   padding-left: 4%;
 }
 
+.Search{
+  margin-left: auto;
+  padding-right: 5%;
+}
+.SearchInput{
+  all: unset;
+  padding-left: 5%;
+  background-color: rgba(240, 248, 255, 0.644);
+  border-radius: 25px;
+  height: 1.75rem;
+  border: none;
+}
+.SearchResults{
+  position:fixed; /* instead of : position:absolute;*/
+  top:7%;         /* instead of : top:100%;*/
+  background-color: white; 
+  width: 100%;
+}
+.SearchResultsItem{
+  margin: 0;
+  padding-left: 1%;
+  width: 100%;
+  border: 1px solid black;
+  text-transform: capitalize;
+}
+.SearchResultsItemLink{
+  color: black;
+}
+
 .Ham{
   display: inline-flex;
   margin-left: auto;
@@ -48,5 +77,8 @@
 @media only screen and (max-width: 1026px) {
   .Link {
       display: none;
+  }
+  .Search{
+    display: none;
   }
 }

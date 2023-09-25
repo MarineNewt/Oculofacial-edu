@@ -3,6 +3,7 @@ import styles from '../styles/Sidebar.module.css';
 import Link from 'next/link';
 
 export default function Sidebar({ current, children }) {
+  /* Add updated items to both searchbarjs and sidebarjs  */
   let conditionlist = ["dermatochalasis", "ptosis", "browptosis", "chalazion", "lesion", "blepharospasm"];
   let treatmentlist = ["blepharoplasty", "lower blepharoplsty", "ELR", "ILR", "temporal brow lift", "incision and drainage"];
   let targetlist = []
