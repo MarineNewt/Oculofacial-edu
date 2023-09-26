@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       <div className={styles.titleBox}><h1 className={styles.title}h1>Oculoplastics Learning Center.</h1></div>
-      <div className={styles.homeSectionsBox}>
+      <div className={styles.homeSectionsContainer}>
         <div className={styles.homeSectionsArea}>
         <Link className={styles.none} href="/conditions/learn">
           <div className={styles.imageFade}></div>

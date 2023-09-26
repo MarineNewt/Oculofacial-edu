@@ -12,13 +12,13 @@ export default function Navbar({}) {
     setActive(!hamactive);
   };
 
-    return <nav className={Navcss.Navbar}>
+    return <><nav className={Navcss.Navbar}>
       <Image src="/images/icons8-eye.png" width={400} height={400} className={Navcss.Logo} alt="Eye logo"></Image>
       <Link className={Navcss.Link} href="/">Home</Link>
       <Link className={Navcss.Link} href="/conditions/learn">Conditions</Link>
       <Link className={Navcss.Link} href="/treatments/learn">Treatments</Link>
       <SearchBar></SearchBar>
-      <button className={Navcss.Ham}>
+      <button className={Navcss.Ham} onClick={(event) => {handlehamClick(); console.log(hamactive)}}>
           <svg
             className={Navcss.Hamsvg}
             fill='none'
@@ -35,4 +35,9 @@ export default function Navbar({}) {
           </svg>
         </button>
     </nav>
+    {hamactive && <div className={Navcss.hammenu}>
+      <Link className={Navcss.hamLink} href="/">Home</Link>
+      <Link className={Navcss.hamLink} href="/conditions/learn">Conditions</Link>
+      <Link className={Navcss.hamLink} href="/treatments/learn">Treatments</Link></div>}
+    </>
   }
