@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.titleBox}><h1 className={styles.title}h1>Oculoplastics Learning Center.</h1></div>
+      <div className={styles.titleBox}><h1 className={styles.title}>Oculoplastics Learning Center.</h1></div>
       <div className={styles.homeSectionsContainer}>
         <div className={styles.homeSectionsArea}>
         <Link className={styles.none} href="/conditions/learn">

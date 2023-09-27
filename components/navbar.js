@@ -18,22 +18,9 @@ export default function Navbar({}) {
       <Link className={Navcss.Link} href="/conditions/learn">Conditions</Link>
       <Link className={Navcss.Link} href="/treatments/learn">Treatments</Link>
       <SearchBar></SearchBar>
-      <button className={Navcss.Ham} onClick={(event) => {handlehamClick(); console.log(hamactive)}}>
-          <svg
-            className={Navcss.Hamsvg}
-            fill='none'
-            stroke='currentColor'
-            viewBox='0 0 24 24'
-            xmlns='http://www.w3.org/2000/svg'
-          >
-            <path
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              strokeWidth={2}
-              d='M4 6h16M4 12h16M4 18h16'
-            />
-          </svg>
-        </button>
+      <button className={Navcss.Ham} onClick={(event) => {handlehamClick()}}>
+      <Image src="/images/hamburger.png" width={400} height={400} alt="ham" className={Navcss.Hamsvg}></Image>
+      </button>
     </nav>
     {hamactive && <div className={Navcss.hammenu}>
       <Link className={Navcss.hamLink} href="/">Home</Link>

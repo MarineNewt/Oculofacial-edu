@@ -56,10 +56,8 @@
   display: inline-flex;
   margin-left: auto;
   padding: 0;
-  height: 8vh;
-  width: 8vh;
+  padding-right: 1%;
   background-color: transparent;
-  border-radius: 10px;
   border: none;
 }
 
@@ -87,12 +85,14 @@
   padding-block: 5px;
 }
 
+/* Desktop */
 @media only screen and (min-width: 1026px) {
   .Ham {
     display: none;
   }
 }
 
+/* Mobile */
 @media only screen and (max-width: 1026px) {
   .Link {
       display: none;

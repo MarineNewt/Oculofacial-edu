@@ -58,3 +58,10 @@
 .none {
   all: unset;
 }
+
+/* Mobile */
+@media only screen and (max-width: 1026px) {
+  .qinfoContainer {
+    width: 75%;
+  }
+}

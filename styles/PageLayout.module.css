@@ -8,6 +8,11 @@
     height: clamp(calc(100vh - 1000px), calc(100vh - 8vh), calc(100vh - 20px));
     width: 15%;
 }
+.mobilesidebar{
+    position: fixed;
+    height: clamp(calc(100vh - 1000px), calc(100vh - 8vh), calc(100vh - 20px));
+    width: 50%;
+}
 
 .content {
     width: 65%;
@@ -31,3 +36,35 @@
     margin: 3rem 0 0;
 }
 
+.mobilesbbtn{
+    z-index: ;
+    position: fixed;
+    height: 10vw;
+    width: 10vw;
+    display: none;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1026px) {
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 1026px) {
+.additionals {
+    display: none;
+}
+.content {
+    width: 80%;
+    margin-left: 10%;
+}
+.sidebar{
+    display: none;
+}
+.mobilesidebar{
+    display: block;
+}
+.mobilesbbtn{
+    display: inline;
+}
+}
