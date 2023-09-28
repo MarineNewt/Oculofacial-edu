@@ -80,7 +80,7 @@
 
 .hamLink{
   color: gray;
-  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   font-size: clamp(20px, 3vh, 1000px);
   padding-block: 5px;
 }
