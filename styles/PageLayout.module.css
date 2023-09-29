@@ -39,11 +39,12 @@
 .mobilesbbtn{
     z-index: ;
     position: fixed;
-    height: 13vw;
-    width: 13vw;
+    height: 11vw;
+    width: 11vw;
     display: none;
     border: none;
     background-color: transparent;
+    padding: 0;
 }
 
 .mobilesbicon{
