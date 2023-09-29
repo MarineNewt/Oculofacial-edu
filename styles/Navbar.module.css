@@ -83,6 +83,7 @@
   border-bottom: 1px solid black;
   font-size: clamp(20px, 3vh, 1000px);
   padding-block: 5px;
+  padding-left: 5vw;
 }
 
 /* Desktop */
