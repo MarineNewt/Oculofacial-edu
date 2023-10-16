@@ -17,7 +17,8 @@ const sbiconClick = () => {
       <button className={styles.mobilesbbtn} style={{marginLeft: sbactive ? "50%" : "0"}} onClick={(event) => {sbiconClick()}}><Image src="/images/sidebar-arrow.png" width={400} height={400} className={styles.mobilesbicon} style={{transform: sbactive ? "scaleX(-1)" : "scaleX(1)"}}alt="Arrow icon"></Image></button>
       <div className={styles.mobilesidebar} style={{display: sbactive ? "block" : "none"}}><Sidebar current={current}></Sidebar></div>
       <div className={styles.content}>{children}</div>
-      <div className={styles.additionals}>extra content</div>
+      {/* Extra Content*/}
+      <div className={styles.additionals}> </div>
     </div>
   </>
 }
