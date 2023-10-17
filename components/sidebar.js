@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Sidebar({ current, children }) {
   /* Add updated items to both searchbarjs and sidebarjs  */
-  let conditionlist = ["dermatochalasis", "ptosis", "browptosis", "chalazion", "lesion", "blepharospasm"];
+  let conditionlist = ["dermatochalasis", "ptosis", "browptosis", "chalazion", "lesion", "blepharospasm", "steatoblepharon"];
   let treatmentlist = ["blepharoplasty", "lower blepharoplsty", "ELR", "ILR", "temporal brow lift", "incision and drainage"];
   let targetlist = []
   if(current === "Conditions"){targetlist = conditionlist;}else{targetlist = treatmentlist;}
