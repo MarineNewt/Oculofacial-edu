@@ -13,8 +13,8 @@
 .Logo{
   margin-left: 20px;
   background-color: transparent;
-  height: fit-content;
-  width: fit-content;
+  height: 85%;
+  width: auto;
 }
 
 .Link{
