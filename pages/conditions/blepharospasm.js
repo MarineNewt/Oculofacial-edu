@@ -12,7 +12,7 @@ export default function FirstPost() {
         <title>Blepharospasm Info</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div id="primaryContent" className={styles.primaryContent}>
+      <div className={styles.primaryContent}>
         <div className={styles.titleFlex}><h1 className={styles.title}>Blepharospasm</h1><Printpage></Printpage></div>
         <h3  className={styles.inPageNav}><Link href='#Diagnosis'>Diagnosis</Link> • <Link href='#Symptoms'>Symptoms</Link> • <Link href='#Causes'>Causes</Link> • <Link href='#Treatments'>Treatments</Link> • <Link href='#Research'>Research</Link></h3>
         <h2 id="Diagnosis" className={styles.secHeading}>Diagnosis</h2>
