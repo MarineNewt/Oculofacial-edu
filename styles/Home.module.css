@@ -63,16 +63,15 @@
 .homeSabox{
   height: 75%;
   aspect-ratio: 1.3;
-  box-shadow: 3px 3px 10px rgb(148, 148, 148);
   border-radius: 50px;
-  -webkit-transition: box-shadow 1s ease-out;
-  -moz-transition: box-shadow 1s ease-out;
-  -o-transition: box-shadow 1s ease-out;
-  transition: box-shadow 1s ease-out;
+  -webkit-transition: border 0.2s ease-out;
+  -moz-transition: border 0.2s ease-out;
+  -o-transition: border 0.2s ease-out;
+  transition: border 0.2s ease-out;
 }
 .homeSabox:hover {
-  box-shadow: none;;
   cursor: pointer;
+  border: 3px solid black;
 }
 .homeSabox:hover .sectionBoxImage{
   opacity: 100%;
@@ -154,6 +153,7 @@
     opacity: 100%;
   }
   .sectionBoxText{
+    line-height: 1;
     height: 35%;
   }
 }
