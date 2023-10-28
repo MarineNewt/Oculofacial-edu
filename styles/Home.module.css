@@ -95,6 +95,7 @@
   height: 30%;
   font-size: clamp(18px, 1.5vw, 1000px);
   font-weight: 450;
+  line-height: 1.25;
   background-color: rgb(162, 211, 232);
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
