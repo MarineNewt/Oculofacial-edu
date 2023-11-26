@@ -27,6 +27,12 @@
   font-style: italic;
 }
 
+.flexrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 /* Treatment pages */
 .qinfoContainer{
   width: 50%;
@@ -57,6 +63,7 @@
 
 .none {
   all: unset;
+  cursor: pointer;
 }
 
 /* Mobile */

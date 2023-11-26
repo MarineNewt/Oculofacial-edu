@@ -21,6 +21,7 @@ export default function searchBar({}) {
   { name: "ILR", link: "/treatments/ILR" },
   { name: "temporal brow lift", link: "/treatments/temporal%20brow%20lift" },
   { name: "incision and drainage", link: "/treatments/incision%20and%20drainage" },
+  { name: "botox", link: "/treatments/botox" },
 ];
 const handleChange = (e) => {
   e.preventDefault();

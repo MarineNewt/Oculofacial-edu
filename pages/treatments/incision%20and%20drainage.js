@@ -13,7 +13,7 @@ export default function FirstPost() {
       <div className={styles.primaryContent}>
         <h1 className={styles.title}>Incision and Drainage</h1>
         <div className={styles.qinfoContainer}>
-          <h4 className={styles.treatmentqinfo}>Type of Treatment: Surgical, Outpatient</h4>
+          <h4 className={styles.treatmentqinfo}>Type of Treatment: Procedure, Outpatient</h4>
           <h4 className={styles.treatmentqinfo}>Commonly used to treat: <Link className={styles.inlineLink} href="/conditions/chalazion">Chalazion</Link></h4>
         </div>
         <h2 className={styles.secHeading}>Overview</h2>
